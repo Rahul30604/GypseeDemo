@@ -15,7 +15,8 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Past;
 import jakarta.validation.constraints.Size;
 
-@Entity(name="User")
+@Entity
+@Table(name="users")
 public class User {
 	
 	
